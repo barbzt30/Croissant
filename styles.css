@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-color: #F1B779 ;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: #811F51;
+
+}
+
+.contact-email {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#liveAlertBtn {
+    text-align: center;
+    width: fit-content;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 800px;
+    height: 20vh;
+}
+
+.liveAlertBtn {
+      padding: 20px;
+}
+
+#images {
+    transition: transform 0.3s ease;
+}
+
+ #images:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-top: 80px;
+}
